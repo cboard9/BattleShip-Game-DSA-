@@ -1,9 +1,9 @@
 # BattleShip-Game-DSA-
-Welcome to the Battleship-like game! This program simulates a turn-based game where the player tries to sink all the hidden ships on the playing board using missiles. The game randomly generates a playing field with hidden ships, and the player has a limited number of missiles to find and sink all the ships.
+Welcome to the Battleship-like game! This program simulates a single-player battleship game where the player tries to sink all the hidden ships on the playing board using missiles. The game randomly generates a playing field with hidden ships, and the player has a limited number of missiles to find and sink all the ships.
 
 Features
 1.	Random Playing Field: A random playing field is generated for each game session, providing a unique experience every time.
-2.	Turn-Based Gameplay: Players take turns firing missiles at coordinates on the playing board to reveal hidden ships.
+2.	Single-Player Gameplay: Player takes turns firing missiles at coordinates on the playing board to reveal hidden ships.
 3.	Ship Sinking: When a player hits a ship with a missile, they get to keep the missile. If they miss, they lose the missile. If the player sinks a ship, they earn points.
 4.	Limited Missiles: Players have a limited number of missiles to use in each game session, adding a strategic element to gameplay.
 5.	Endgame Conditions: The game ends when the player either sinks all the ships or runs out of missiles.
