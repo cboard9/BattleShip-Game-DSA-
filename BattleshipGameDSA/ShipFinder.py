@@ -38,13 +38,13 @@ class ShipFinder(object):
             #add adjacent elements to stack, and not going out of bounds
 
             if x + 1 < rows and game_board[x+1][y]:
-                stack.append([x+1, y])
+                stack.append((x+1, y))
             if x - 1 >= 0 and game_board[x-1][y]:
-                stack.append([x-1, y])
+                stack.append((x-1, y))
             if y + 1 < cols and game_board[x][y+1]:
-                stack.append([x, y+1])
+                stack.append((x, y+1))
             if y - 1 >= 0 and game_board[x][y-1]:
-                stack.append([x, y-1])
+                stack.append((x, y-1))
 
             ship = new_ship
             ships.append(ship)
