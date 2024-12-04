@@ -11,7 +11,7 @@ Features
 Setup, Installation, and Execution
 1.	Download the repository.
 2.	Navigate to the directory where the files are located using the command line or terminal, or use preferred IDE.
-3.	Run the ‘game.py’ file by executing the following command “python game.py”.
+3.	Run the ‘Main.py’ file by executing the following command “python Main.py”.
 4.	Follow the instructions displayed in the terminal to play the Battleship game.
    
 How to Play
